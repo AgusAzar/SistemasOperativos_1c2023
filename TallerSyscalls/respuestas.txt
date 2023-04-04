@@ -1,0 +1,7 @@
+1)
+    a) Se lanzan dos procesos, uno mediante la syscall execve y otro mediante clone.
+    El padre imprime el mensaje "sup!" mensaje y le manda una señal al hijo y esto lo repite varias veces
+    El hijo implementa un handler para la señal del padre que imprime el mensaje "ya va!"
+    b) Utiliza la syscall kill con la signal sigurg para avisar al hijo que ejecute el handler.
+2)
+

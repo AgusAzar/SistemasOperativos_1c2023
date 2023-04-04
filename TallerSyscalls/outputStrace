@@ -1,0 +1,144 @@
+133075 execve("./hai64", ["./hai64", "echo", "hola"], 0x7ffe0704f1e0 /* 56 vars */) = 0
+133075 uname({sysname="Linux", nodename="pc-agustin", ...}) = 0
+133075 brk(NULL)                        = 0x1d67000
+133075 brk(0x1d681c0)                   = 0x1d681c0
+133075 arch_prctl(ARCH_SET_FS, 0x1d67880) = 0
+133075 readlink("/proc/self/exe", "/home/agustin/Downloads/sistemas"..., 4096) = 63
+133075 brk(0x1d891c0)                   = 0x1d891c0
+133075 brk(0x1d8a000)                   = 0x1d8a000
+133075 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+133075 clone(child_stack=NULL, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x1d67b50) = 133076
+133075 rt_sigaction(SIGINT, {sa_handler=0x40108e, sa_mask=[INT], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x406bf0},  <unfinished ...>
+133076 rt_sigaction(SIGURG, {sa_handler=0x40105e, sa_mask=[URG], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x406bf0},  <unfinished ...>
+133075 <... rt_sigaction resumed>{sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+133076 <... rt_sigaction resumed>{sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+133075 rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0
+133075 rt_sigaction(SIGCHLD, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+133075 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+133075 nanosleep({tv_sec=1, tv_nsec=0}, 0x7ffd5e555770) = 0
+133075 write(1, "sup!\n", 5)            = 5
+133075 kill(133076, SIGURG)             = 0
+133076 --- SIGURG {si_signo=SIGURG, si_code=SI_USER, si_pid=133075, si_uid=1000} ---
+133075 rt_sigprocmask(SIG_BLOCK, [CHLD],  <unfinished ...>
+133076 write(1, "ya va!\n", 7 <unfinished ...>
+133075 <... rt_sigprocmask resumed>[], 8) = 0
+133076 <... write resumed>)             = 7
+133075 rt_sigaction(SIGCHLD, NULL,  <unfinished ...>
+133076 rt_sigreturn({mask=[]} <unfinished ...>
+133075 <... rt_sigaction resumed>{sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+133076 <... rt_sigreturn resumed>)      = 0
+133075 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+133075 nanosleep({tv_sec=1, tv_nsec=0}, 0x7ffd5e555770) = 0
+133075 write(1, "sup!\n", 5)            = 5
+133075 kill(133076, SIGURG)             = 0
+133076 --- SIGURG {si_signo=SIGURG, si_code=SI_USER, si_pid=133075, si_uid=1000} ---
+133075 rt_sigprocmask(SIG_BLOCK, [CHLD],  <unfinished ...>
+133076 write(1, "ya va!\n", 7 <unfinished ...>
+133075 <... rt_sigprocmask resumed>[], 8) = 0
+133076 <... write resumed>)             = 7
+133075 rt_sigaction(SIGCHLD, NULL,  <unfinished ...>
+133076 rt_sigreturn({mask=[]} <unfinished ...>
+133075 <... rt_sigaction resumed>{sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+133076 <... rt_sigreturn resumed>)      = 1
+133075 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+133075 nanosleep({tv_sec=1, tv_nsec=0}, 0x7ffd5e555770) = 0
+133075 write(1, "sup!\n", 5)            = 5
+133075 kill(133076, SIGURG)             = 0
+133076 --- SIGURG {si_signo=SIGURG, si_code=SI_USER, si_pid=133075, si_uid=1000} ---
+133075 rt_sigprocmask(SIG_BLOCK, [CHLD],  <unfinished ...>
+133076 write(1, "ya va!\n", 7 <unfinished ...>
+133075 <... rt_sigprocmask resumed>[], 8) = 0
+133076 <... write resumed>)             = 7
+133075 rt_sigaction(SIGCHLD, NULL,  <unfinished ...>
+133076 rt_sigreturn({mask=[]} <unfinished ...>
+133075 <... rt_sigaction resumed>{sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+133076 <... rt_sigreturn resumed>)      = 2
+133075 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+133075 nanosleep({tv_sec=1, tv_nsec=0}, 0x7ffd5e555770) = 0
+133075 write(1, "sup!\n", 5)            = 5
+133075 kill(133076, SIGURG)             = 0
+133076 --- SIGURG {si_signo=SIGURG, si_code=SI_USER, si_pid=133075, si_uid=1000} ---
+133075 rt_sigprocmask(SIG_BLOCK, [CHLD],  <unfinished ...>
+133076 write(1, "ya va!\n", 7 <unfinished ...>
+133075 <... rt_sigprocmask resumed>[], 8) = 0
+133076 <... write resumed>)             = 7
+133075 rt_sigaction(SIGCHLD, NULL,  <unfinished ...>
+133076 rt_sigreturn({mask=[]} <unfinished ...>
+133075 <... rt_sigaction resumed>{sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+133076 <... rt_sigreturn resumed>)      = 3
+133075 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+133075 nanosleep({tv_sec=1, tv_nsec=0}, 0x7ffd5e555770) = 0
+133075 write(1, "sup!\n", 5)            = 5
+133075 kill(133076, SIGURG)             = 0
+133076 --- SIGURG {si_signo=SIGURG, si_code=SI_USER, si_pid=133075, si_uid=1000} ---
+133075 rt_sigprocmask(SIG_BLOCK, [CHLD],  <unfinished ...>
+133076 write(1, "ya va!\n", 7 <unfinished ...>
+133075 <... rt_sigprocmask resumed>[], 8) = 0
+133076 <... write resumed>)             = 7
+133075 rt_sigaction(SIGCHLD, NULL,  <unfinished ...>
+133076 rt_sigreturn({mask=[]} <unfinished ...>
+133075 <... rt_sigaction resumed>{sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+133076 <... rt_sigreturn resumed>)      = 4
+133075 rt_sigprocmask(SIG_SETMASK, [],  <unfinished ...>
+133076 getppid( <unfinished ...>
+133075 <... rt_sigprocmask resumed>NULL, 8) = 0
+133076 <... getppid resumed>)           = 133075
+133075 nanosleep({tv_sec=1, tv_nsec=0},  <unfinished ...>
+133076 kill(133075, SIGINT <unfinished ...>
+133075 <... nanosleep resumed>{tv_sec=1, tv_nsec=35822}) = ? ERESTART_RESTARTBLOCK (Interrupted by signal)
+133076 <... kill resumed>)              = 0
+133075 --- SIGINT {si_signo=SIGINT, si_code=SI_USER, si_pid=133076, si_uid=1000} ---
+133075 wait4(-1,  <unfinished ...>
+133076 execve("/home/agustin/bochs/bin//echo", ["echo", "hola"], 0x7ffd5e555a68 /* 56 vars */) = -1 ENOENT (No such file or directory)
+133076 execve("/home/agustin/.config/rofi/bin/echo", ["echo", "hola"], 0x7ffd5e555a68 /* 56 vars */) = -1 ENOENT (No such file or directory)
+133076 execve("/home/agustin/.yarn/bin/echo", ["echo", "hola"], 0x7ffd5e555a68 /* 56 vars */) = -1 ENOENT (No such file or directory)
+133076 execve("/home/agustin/.config/yarn/global/node_modules/.bin/echo", ["echo", "hola"], 0x7ffd5e555a68 /* 56 vars */) = -1 ENOENT (No such file or directory)
+133076 execve("/home/agustin/.nvm/versions/node/v14.17.6/bin/echo", ["echo", "hola"], 0x7ffd5e555a68 /* 56 vars */) = -1 ENOENT (No such file or directory)
+133076 execve("/usr/local/bin/echo", ["echo", "hola"], 0x7ffd5e555a68 /* 56 vars */) = -1 ENOENT (No such file or directory)
+133076 execve("/usr/bin/echo", ["echo", "hola"], 0x7ffd5e555a68 /* 56 vars */) = 0
+133076 brk(NULL)                        = 0x558b7c7f2000
+133076 arch_prctl(0x3001 /* ARCH_??? */, 0x7ffefeebba90) = -1 EINVAL (Invalid argument)
+133076 access("/etc/ld.so.preload", R_OK) = -1 ENOENT (No such file or directory)
+133076 openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+133076 newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=103755, ...}, AT_EMPTY_PATH) = 0
+133076 mmap(NULL, 103755, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f166bdb0000
+133076 close(3)                         = 0
+133076 openat(AT_FDCWD, "/usr/lib/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+133076 read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P4\2\0\0\0\0\0"..., 832) = 832
+133076 pread64(3, "\6\0\0\0\4\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0"..., 784, 64) = 784
+133076 newfstatat(3, "", {st_mode=S_IFREG|0755, st_size=1953472, ...}, AT_EMPTY_PATH) = 0
+133076 mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f166bdae000
+133076 pread64(3, "\6\0\0\0\4\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0"..., 784, 64) = 784
+133076 mmap(NULL, 1994384, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f166bbc7000
+133076 mmap(0x7f166bbe9000, 1421312, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x22000) = 0x7f166bbe9000
+133076 mmap(0x7f166bd44000, 356352, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x17d000) = 0x7f166bd44000
+133076 mmap(0x7f166bd9b000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1d4000) = 0x7f166bd9b000
+133076 mmap(0x7f166bda1000, 52880, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f166bda1000
+133076 close(3)                         = 0
+133076 mmap(NULL, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f166bbc4000
+133076 arch_prctl(ARCH_SET_FS, 0x7f166bbc4740) = 0
+133076 set_tid_address(0x7f166bbc4a10)  = 133076
+133076 set_robust_list(0x7f166bbc4a20, 24) = 0
+133076 rseq(0x7f166bbc5060, 0x20, 0, 0x53053053) = 0
+133076 mprotect(0x7f166bd9b000, 16384, PROT_READ) = 0
+133076 mprotect(0x558b7c2e8000, 4096, PROT_READ) = 0
+133076 mprotect(0x7f166bdfb000, 8192, PROT_READ) = 0
+133076 prlimit64(0, RLIMIT_STACK, NULL, {rlim_cur=8192*1024, rlim_max=RLIM64_INFINITY}) = 0
+133076 munmap(0x7f166bdb0000, 103755)   = 0
+133076 getrandom("\x43\x6c\x58\x86\xcd\xe1\x56\x64", 8, GRND_NONBLOCK) = 8
+133076 brk(NULL)                        = 0x558b7c7f2000
+133076 brk(0x558b7c813000)              = 0x558b7c813000
+133076 openat(AT_FDCWD, "/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3
+133076 newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=3048928, ...}, AT_EMPTY_PATH) = 0
+133076 mmap(NULL, 3048928, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f166b800000
+133076 close(3)                         = 0
+133076 newfstatat(1, "", {st_mode=S_IFREG|0644, st_size=60, ...}, AT_EMPTY_PATH) = 0
+133076 write(1, "hola\n", 5)            = 5
+133076 close(1)                         = 0
+133076 close(2)                         = 0
+133076 exit_group(0)                    = ?
+133076 +++ exited with 0 +++
+133075 <... wait4 resumed>[{WIFEXITED(s) && WEXITSTATUS(s) == 0}], 0, NULL) = 133076
+133075 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=133076, si_uid=1000, si_status=0, si_utime=504 /* 5.04 s */, si_stime=0} ---
+133075 exit_group(0)                    = ?
+133075 +++ exited with 0 +++
