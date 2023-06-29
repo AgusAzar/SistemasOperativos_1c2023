@@ -1,0 +1,1 @@
+cmd_/vagrant/ejercicios/2-azar/azar.ko := ld -r -m elf_x86_64 --build-id=sha1  -T arch/x86/module.lds -o /vagrant/ejercicios/2-azar/azar.ko /vagrant/ejercicios/2-azar/azar.o /vagrant/ejercicios/2-azar/azar.mod.o;  true
